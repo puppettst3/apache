@@ -10,6 +10,8 @@ end
 PuppetLint.configuration.send('disable_80chars')
 PuppetLint.configuration.relative = true
 PuppetLint.configuration.ignore_paths = ['spec/**/*.pp', 'pkg/**/*.pp']
+PuppetLint.configuration.send('disable_hard_tabs')
+PuppetLint.configuration.send('disable_2sp_soft_tabs')
 
 desc 'Validate manifests, templates, and ruby files'
 task :validate do

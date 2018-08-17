@@ -1,6 +1,6 @@
 class apache::config (
 	String $configsource = lookup({"name" => "apache.configsource", "default_value" => ""}),
-	String $configfile   = lookup({"name" => "apache.configfile", "default_vaule" => ""}),
+	String $configfile   = lookup({"name" => "apache.configfile", "default_value" => ""}),
 	String $vhostsource  = lookup({"name" => "apache.vhostsource", "default_value" => ""}),
 	String $vhostfile    = lookup({"name" => "apache.vhostfile", "default_value" => ""})
 	) {

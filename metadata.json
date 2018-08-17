@@ -1,0 +1,15 @@
+{
+  "name": "puppettst3-apache",
+  "version": "0.1.0",
+  "author": "puppettst3",
+  "summary": "An apache module",
+  "license": "Apache-2.0",
+  "source": "/etc/httpd/conf.modules.d/alias.conf",
+  "project_page": "",
+  "issues_url": "",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

@@ -11,7 +11,7 @@ class apache::config (
 	}
 	file { 'vhost-file':
 		path    => $vhostfile,
-		enusre  => file,
+		ensure  => file,
 		content => template($vhostsource)
 	}
 }
